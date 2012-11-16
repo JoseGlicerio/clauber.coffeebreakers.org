@@ -1,6 +1,4 @@
-/* ==========================================================================
-   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
+/*  HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)  */
 
 html,
 button,
@@ -69,32 +67,7 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-
-.title {
-    color: white;
-}
-
-/* ==============
-    MOBILE: Menu
-   ============== */
+/*  MOBILE: Menu */
 
 nav ul {
     margin: 0;
@@ -123,9 +96,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
+/*  MOBILE: Main */
 
 .main {
     padding: 30px 0;
@@ -140,46 +111,69 @@ nav a:hover {
     padding: 0px 5% 10px;
 }
 
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
+/*  ALL: IE Fixes */
 
 .ie7 .title {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/*  Author's custom styles */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+body {
+    padding-top: 1em;
+    font: 130%/160% Trebuchet MS, Georgia, serif; 
+    background: #000;
+}
+
+p {
+    color: #017DB1;
+    letter-spacing: -0.05em;
+    line-height: 1.3em;
+}
+
+strong {
+    font-size: 140%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CEEFFF;
+    text-decoration: none;
+}
+
+header#menu {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
+}
+
+footer small {
+    color: #656461;
+    font-size: 65%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
+/*  Media Queries */
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
+/*  INTERMEDIATE: Menu */
 
     nav a {
         float: left;
@@ -197,9 +191,7 @@ nav a:hover {
         margin-right: 0;
     }
 
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+/*  INTERMEDIATE: IE Fixes */
 
     nav ul li {
         display: inline;
@@ -212,9 +204,7 @@ nav a:hover {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
+/*  WIDE: CSS3 Effects */
 
     .header-container,
     .main aside {
@@ -223,9 +213,7 @@ nav a:hover {
                 box-shadow: 0 5px 10px #aaa;
     }
 
-/* ============
-    WIDE: Menu
-   ============ */
+/*  WIDE: Menu */
 
     .title {
         float: left;
@@ -236,26 +224,16 @@ nav a:hover {
         width: 38%;
     }
 
-/* ============
-    WIDE: Main
-   ============ */
+/*  WIDE: Main */
 
     .main article {
         float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
     }
 }
 
 @media only screen and (min-width: 1140px) {
 
-/* ===============
-    Maximal Width
-   =============== */
+/*  Maximal Width */
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
@@ -263,9 +241,7 @@ nav a:hover {
     }
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
+/*  Helper classes */
 
 .ir {
     background-color: transparent;
@@ -325,9 +301,7 @@ nav a:hover {
     *zoom: 1;
 }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
+/*  Print styles */
 
 @media print {
     * {
