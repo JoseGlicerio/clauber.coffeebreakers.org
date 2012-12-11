@@ -156,6 +156,11 @@ header#menu {
     text-align: center;
 }
 
+header#menu .currentlyLanguage {
+    font-weight: bold;
+    font-size: 24px;
+}
+
 footer {
     position: absolute;
     bottom: 0;
